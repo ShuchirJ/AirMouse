@@ -23,3 +23,8 @@ Took a look at how everything should go together and came up with this wiring di
 <img src="https://github.com/user-attachments/assets/4648ec2f-9944-428a-95e8-c025d3546ca0" height="200">
 
 seems fairly simple??
+
+## 5-27 21:00: I forgot the buttons.
+I don't want to use the buttons onboard the esp because I want to position them along the outside of the mouse, so they'll need to be a little flexible. Now I'm not 100% confident but I think [the ESP should have internal pull ups](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf), so I wont need resistors. 4 wires going to a single ground pin makes me a little uneasy though. Tomorrow I'll start designing the case, and hopefully in a few days I'll have written the code and finish the case.
+
+![the_wand_wiring](https://github.com/user-attachments/assets/8c27124e-c10e-4aa7-a27c-d65dd706ca22)
