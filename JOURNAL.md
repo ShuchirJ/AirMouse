@@ -48,3 +48,8 @@ I'll do as much as I can before adding mouse support then add that later.
 Added some basic logic to handle angles, and added skeleton logic for mouse events!
 
 **Time taken: 1 hour**
+
+## 5-29 18:30: Code part 3
+Okay I was approaching my code wrong- I was trying to take absolute positional degree/x/y/z movements, finding their speeds, then reapplying that to the mouse movement. ??? I realized I can pass the accel/gyro speeds to the mouse directly, so I rewrote the code to do that. Also realized I was moving mouse on gyro movementsi instead of accel. movements, so I fixed that by making the gyro the scroll and the accel. the mouse movements. I think that's pretty much done, I need to implement button presses now but that should be very simple- just reading the value of a button and calling mouse.press when it happens.
+
+**Time taken: 30 min**
