@@ -53,3 +53,19 @@ Added some basic logic to handle angles, and added skeleton logic for mouse even
 Okay I was approaching my code wrong- I was trying to take absolute positional degree/x/y/z movements, finding their speeds, then reapplying that to the mouse movement. ??? I realized I can pass the accel/gyro speeds to the mouse directly, so I rewrote the code to do that. Also realized I was moving mouse on gyro movementsi instead of accel. movements, so I fixed that by making the gyro the scroll and the accel. the mouse movements. I think that's pretty much done, I need to implement button presses now but that should be very simple- just reading the value of a button and calling mouse.press when it happens.
 
 **Time taken: 30 min**
+
+## 6-7 7:30: Finishing the code, BOM
+Finished the code! I added the button presses, and now it works as a mouse. Before I start designing the case, I need to figure out the BOM so I know what parts to design for. I know I'll be using the XIAO ESP32S3 and [this](https://www.adafruit.com/product/4237) battery, I just need to finalize the accelerometer/gyroscope and the exact buttons now. For the accelerometer i think I was thinking of something before, but I'll go with [LSM6DSOX](https://www.adafruit.com/product/4438) because it seems like it has very low noise - lower than the MPU6050. The code will change a little; Let me change that now
+
+Ok, done and uploaded- [mouse.ino](mouse.ino)
+
+BOM time!! these [soft buttons](https://www.adafruit.com/product/3101) look nice, and I'll go with a typical [rocker switch](https://www.robotshop.com/products/sfe-on-off-rocker-switch?gQT=1) for the power. That should be all!
+
+BOM: [BOM.csv](BOM.csv)
+
+while thinking of this ive now run into another problem: i need a 3 way splitter for the ground pin on the esp, but i can't find any
+
+it's fine i'll just strip the wires and solder them together and make my own splitter
+
+summary for today: writing more code, part sourcing, thinking 🥺
+**Time taken: 2 hrs**
