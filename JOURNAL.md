@@ -69,3 +69,13 @@ it's fine i'll just strip the wires and solder them together and make my own spl
 
 summary for today: writing more code, part sourcing, thinking 🥺
 **Time taken: 2 hrs**
+
+
+## 6-11 9:30: More part sourcing, Start CAD
+Ok, I did some more part sourcing to buy more things from mouser so its cheaper. I've added screws and wires to the BOM, I'll upload it soon. I think the only thing left is the elastic band i wanted to add. I've also started cadding:
+![image](https://github.com/user-attachments/assets/3976370a-b997-408e-b06b-18d34ff6ee76)
+The design thought here is this:
+
+3 layers; bottom is accelerometer screwed in for accuracy, and the two left/right buttons accessible from the bottom (easier to click while holding in the hand i think). Middle layer is the ESP; one of the walls will have a cutout for the XIAO's USB port so I can charge the device without needing to open the whole thing up. Third and final layer will be the battery. Still not sure how I'm going to design the lid, because I want it to be ome sort of snapfit so it's easy to open but I also don't really know how to design snap fits so uhh we'll see I guess. One of the walls will also have a cutout for the power switch. 
+
+**Time Taken: 1.5 hrs**
