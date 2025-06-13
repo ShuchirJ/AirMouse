@@ -54,7 +54,7 @@ Okay I was approaching my code wrong- I was trying to take absolute positional d
 
 **Time taken: 30 min**
 
-## 6-7 7:30: Finishing the code, BOM
+## 6-7 7:30 PM: Finishing the code, BOM
 Finished the code! I added the button presses, and now it works as a mouse. Before I start designing the case, I need to figure out the BOM so I know what parts to design for. I know I'll be using the XIAO ESP32S3 and [this](https://www.adafruit.com/product/4237) battery, I just need to finalize the accelerometer/gyroscope and the exact buttons now. For the accelerometer i think I was thinking of something before, but I'll go with [LSM6DSOX](https://www.adafruit.com/product/4438) because it seems like it has very low noise - lower than the MPU6050. The code will change a little; Let me change that now
 
 Ok, done and uploaded- [mouse.ino](mouse.ino)
@@ -71,7 +71,7 @@ summary for today: writing more code, part sourcing, thinking 🥺
 **Time taken: 2 hrs**
 
 
-## 6-11 9:30: More part sourcing, Start CAD
+## 6-11 9:30 PM: More part sourcing, Start CAD
 Ok, I did some more part sourcing to buy more things from mouser so its cheaper. I've added screws and wires to the BOM, I'll upload it soon. I think the only thing left is the elastic band i wanted to add. I've also started cadding:
 ![image](https://github.com/user-attachments/assets/3976370a-b997-408e-b06b-18d34ff6ee76)
 The design thought here is this:
@@ -79,3 +79,14 @@ The design thought here is this:
 3 layers; bottom is accelerometer screwed in for accuracy, and the two left/right buttons accessible from the bottom (easier to click while holding in the hand i think). Middle layer is the ESP; one of the walls will have a cutout for the XIAO's USB port so I can charge the device without needing to open the whole thing up. Third and final layer will be the battery. Still not sure how I'm going to design the lid, because I want it to be ome sort of snapfit so it's easy to open but I also don't really know how to design snap fits so uhh we'll see I guess. One of the walls will also have a cutout for the power switch. 
 
 **Time Taken: 1.5 hrs**
+
+## 6-12 8:45 PM: CAD
+I've started dropping the cad models for my actual components in so I can design around them. So far, I've rethought where Iw ant the buttons to be. I also think 3 layers will be too thick, so I'll sacrifice an extra 5mm width for a thinner device. The XIAO is laying next to the accelerometer, but I'm not sure how to secure it in especially since there are no mounting holes. here's where I'm at now:
+![image](https://github.com/user-attachments/assets/dbd57f68-b891-40fb-a7dd-4b4eb375fecf)
+
+Thought about it for a quick second and I'll put small walls around the xiao so it doesn't move hopefully that's enough 😭 I'm thinking of putting a screwable panel on top of both the boards anyways to separate the battery, so maybe that'll all hold the ESP in. Made a cutout for the usb port, and stuck my button in.
+![image](https://github.com/user-attachments/assets/176a38f6-c2b1-4a85-a316-7c186ccdf6ae) ![image](https://github.com/user-attachments/assets/36dc6012-ae49-4ca9-a31a-f41776359fb5)
+
+what's left: the other button, tolerances for the buttons, power switch, separation panel (?), battery (?), and lid. I think lid will be the hardest considering I have like no experience but we'll see. 
+
+**Time taken: 2.5 hrs**
