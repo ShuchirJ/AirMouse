@@ -90,3 +90,10 @@ Thought about it for a quick second and I'll put small walls around the xiao so 
 what's left: the other button, tolerances for the buttons, power switch, separation panel (?), battery (?), and lid. I think lid will be the hardest considering I have like no experience but we'll see. 
 
 **Time taken: 2.5 hrs**
+
+## 6-13 11:00 PM: Rocker Switch
+Spent a few min adding a cutout for the rocker switch...how in the world is it so big
+![image](https://github.com/user-attachments/assets/25ad6c11-e2c9-46e8-a1b3-77f9a4218fc2)
+I need to rethink this, potentially findding a smaller rocker switch because this leaves like no space for the battery.
+
+**Time taken: 20 min**
