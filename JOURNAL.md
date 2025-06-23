@@ -97,3 +97,20 @@ Spent a few min adding a cutout for the rocker switch...how in the world is it s
 I need to rethink this, potentially findding a smaller rocker switch because this leaves like no space for the battery.
 
 **Time taken: 20 min**
+
+
+## 6-22 10:00 PM: Slideswitches
+Okay back after a hiatus. looked into slideswitches instead of rockers; I think they'll work, but it's not worth it to have the rocker switch on this existing model. I want to extend the model a little bit, open it up a little, then make some space for the switch on the side.
+
+mini update: I got the switch in, but I think my second button (for right clicking, etc.) might be too close
+![image](https://github.com/user-attachments/assets/53a76a39-5665-4e8b-a825-1442dd68c06e)
+
+also just realizing the holes arent big enough for the buttons; i think i should be able to push the prongs in? I'm not sure whether thsi much interference warrants me opening the hole a little 
+
+![image](https://github.com/user-attachments/assets/b3a04366-0f1a-485f-a940-10b12a617dea)
+
+I've adjusted the spacing there, I'm more comfortable with the gap now. If it still doesn't work out, I can bend the pins a little or push the buttons out further.
+
+To do: add a little flat plate for the battery to sit on, check the battery in the case, add lid, clean up the case.
+
+**Time taken: 1hr**
