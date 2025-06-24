@@ -114,3 +114,44 @@ I've adjusted the spacing there, I'm more comfortable with the gap now. If it st
 To do: add a little flat plate for the battery to sit on, check the battery in the case, add lid, clean up the case.
 
 **Time taken: 1hr**
+
+
+## 6-23 11:00 AM: Battery
+Preliminary battery fitting:
+
+![image](https://github.com/user-attachments/assets/7323a7c8-2909-41b4-982e-04b670361960)
+
+I mean it fits alright, but the lead wires are an additional 25mm. The edge of the battery to the edge of the case is 12 mm. I'm thinking I'll loop the wire above the battery (so just let it sit on top of the battery) so it'll probably be okay? There seems to be enough space to maneuver the wires without crimping them. I'm afraid I'm not giving myself enough wiggle room here tho...
+
+battery plate!! 
+
+![image](https://github.com/user-attachments/assets/aefba78c-60e9-4f34-bc51-7f3e9012fa54)
+
+To clarify, the main reason I want this plate between the battery and the rest of the components is bc I don't want anything to accidentally puncture/affect the battery- I'd like as much separation as possible.
+
+To do: lid, polishes
+
+**Time taken: 45 min**
+
+## 6-24 10:00 AM: Lid + final touches
+I've decided on a sliding lid. I just did a sliding lid on another one of my projects and it worked out quite well imo. The only thing is it'll add a little bit of height but it's ok.
+
+made the rails (will filet the inside later):
+
+![image](https://github.com/user-attachments/assets/ff1a3aac-045b-4637-a0a4-b7a19fd2e131)
+
+lid!!!
+
+![image](https://github.com/user-attachments/assets/2dd88553-a89d-45b7-b651-ac92ede66ee5)
+
+time to polish
+
+done !!
+
+![image](https://github.com/user-attachments/assets/cc2fa837-8b83-4e46-a021-361e68e61be9)
+
+fileted it a bunch so it's comfortable to hold + added a nice little embossing. 
+
+To do: update BOM, write README, upload CAD source files
+
+**Time taken: 45 min**
