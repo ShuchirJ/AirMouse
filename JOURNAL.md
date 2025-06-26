@@ -5,6 +5,8 @@ description: "Wave the wand and see magic appear on your screen!"
 created_at: "2025-05-26"
 ---
 
+Total time taken: 11 hr 40 min
+
 ## 5-26 00:00: Planning
 It's planning day today! I want to research a litle and figure out the best way to do things. The design: have a mouse controlled entirely by accelerometers and gyroscopes. I'm aware it's worse than an optical mouse this way, but I would really like a way to write on something like excalidraw as if i was writing with an normal pen- so the mouse should be small enough to fit in my palm. 
 The 3 main things that come to my mind today: the MCU, accelerometer/gyroscope, and battery. MCU should ideally support BLE because it's way nicer than having a wire coming out your palm (also my goal is to use this on a projector so I'd need a really long wire). 
@@ -17,6 +19,8 @@ For battery: again need something small; maybe [this](https://www.adafruit.com/p
 
 accelerometer + gyroscope: [this](https://www.adafruit.com/product/4503) looks cheap and good enough for what I need!
 
+**Time taken: 20 min**
+
 ## 5-27 19:00: Wiring
 Took a look at how everything should go together and came up with this wiring diagram:
 
@@ -24,10 +28,14 @@ Took a look at how everything should go together and came up with this wiring di
 
 seems fairly simple??
 
+**Time taken: 15 min**
+
 ## 5-27 21:00: I forgot the buttons.
 I don't want to use the buttons onboard the esp because I want to position them along the outside of the mouse, so they'll need to be a little flexible. Now I'm not 100% confident but I think [the ESP should have internal pull ups](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf), so I wont need resistors. 4 wires going to a single ground pin makes me a little uneasy though. Tomorrow I'll start designing the case, and hopefully in a few days I'll have written the code and finish the case.
 
 ![the_wand_wiring](https://github.com/user-attachments/assets/8c27124e-c10e-4aa7-a27c-d65dd706ca22)
+
+**Time taken: 15 min**
 
 ## 5-28 09:00: Code
 Decided to do the code first; Started simulating on wokwi: https://wokwi.com/projects/432109492341468161
