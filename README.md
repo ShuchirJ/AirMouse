@@ -15,6 +15,7 @@ Two main reasons:
 *Note: Despite what the wiring diagram says, the Wand plans to use a 420mAh battery*
 
 ## BOM
+See the bom [here](BOM.csv) too!
 | Part | Quantity | Price (USD) | Source |
 | ---- | -------- | ----------- | ------ |
 | Xiao ESP32S3 | 1 | 7.49 | [Seeed](https://octopart.com/opatz8j6/a1?t=iGINWb-pOFoDR6J4OBaV-c_PxjBp4hYKZUA_Jv6fUrz0qgPM3kMQCfNabeqoILV3gMVdSeLOqTMmWgJE6dpeTdfQe_umBKLnbMFIkGVaOZfruk_JCTi1YlxBCt-4ZfZUM15JSNk5DvOTbllupusxp0vuGl3jC7J0p2fP5iQJRrAz7A8F43ccIF2FvbYfko1sD6Kn6h7ZQJeQ3bI729eyCb4ICYwOiAyPkE_t22fTRMsU-DrP7d2z8_6rH3yx4MaKhSPnY65W2ZKrablQA6a80WEvTSWY) |
