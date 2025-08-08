@@ -163,3 +163,8 @@ fileted it a bunch so it's comfortable to hold + added a nice little embossing.
 To do: update BOM, write README, upload CAD source files
 
 **Time taken: 45 min**
+
+
+Hello! I didn't do any journaling while building unfortunately so I'll leave a few notes:
+- playing with the accelerometer took me a week alone. Integration led to a lot of drifting, and getting it to track my hand accurately was a challenge in itself. but I finally got it! Will update the code in mouse.ino when I have time
+- The end result is far too bulky and clicking does not seem to work. need to investigate more and think of a better design. It's possible a custom PCB will make it less bulky but I'm not sure there's any worth exploring this right now.
